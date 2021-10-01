@@ -15,7 +15,7 @@ class EnsayoSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('muestra')->insert([
+        DB::table('ensayo')->insert([
             'muestra_id' => 1,
             'nombre' => 'Valoración',
             'especificacion' => 'No mayo a 3',
@@ -24,7 +24,7 @@ class EnsayoSeeder extends Seeder
             'updated_at' => Carbon::now(),
         ]);
 
-        DB::table('muestra')->insert([
+        DB::table('ensayo')->insert([
             'muestra_id' => 1,
             'nombre' => 'HPLC',
             'especificacion' => 'Cumple / No cumple',
@@ -33,7 +33,7 @@ class EnsayoSeeder extends Seeder
             'updated_at' => Carbon::now(),
         ]);
 
-        DB::table('muestra')->insert([
+        DB::table('ensayo')->insert([
             'muestra_id' => 1,
             'nombre' => 'Disolución',
             'especificacion' => 'Maximo 45',
@@ -42,7 +42,7 @@ class EnsayoSeeder extends Seeder
             'updated_at' => Carbon::now(),
         ]);
 
-        DB::table('muestra')->insert([
+        DB::table('ensayo')->insert([
             'muestra_id' => 2,
             'nombre' => 'Valoración',
             'especificacion' => 'No mayo a 5',
@@ -51,7 +51,7 @@ class EnsayoSeeder extends Seeder
             'updated_at' => Carbon::now(),
         ]);
 
-        DB::table('muestra')->insert([
+        DB::table('ensayo')->insert([
             'muestra_id' => 2,
             'nombre' => 'HPLC',
             'especificacion' => 'Cumple / No cumple',
@@ -60,7 +60,7 @@ class EnsayoSeeder extends Seeder
             'updated_at' => Carbon::now(),
         ]);
 
-        DB::table('muestra')->insert([
+        DB::table('ensayo')->insert([
             'muestra_id' => 2,
             'nombre' => 'Disolución',
             'especificacion' => 'Maximo 38',
@@ -69,7 +69,7 @@ class EnsayoSeeder extends Seeder
             'updated_at' => Carbon::now(),
         ]);
 
-        DB::table('muestra')->insert([
+        DB::table('ensayo')->insert([
             'muestra_id' => 3,
             'nombre' => 'Valoración',
             'especificacion' => 'No mayo a 369',
@@ -78,7 +78,7 @@ class EnsayoSeeder extends Seeder
             'updated_at' => Carbon::now(),
         ]);
 
-        DB::table('muestra')->insert([
+        DB::table('ensayo')->insert([
             'muestra_id' => 3,
             'nombre' => 'HPLC',
             'especificacion' => 'Cumple / No cumple',
@@ -87,7 +87,7 @@ class EnsayoSeeder extends Seeder
             'updated_at' => Carbon::now(),
         ]);
 
-        DB::table('muestra')->insert([
+        DB::table('ensayo')->insert([
             'muestra_id' => 3,
             'nombre' => 'Disolución',
             'especificacion' => 'Maximo 23',
